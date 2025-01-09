@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.matryxsoft.reports.ReportGenerator"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testcases.TC_001_Elements">
+        <methods>
+          <include name="initialization"/>
+          <include name="Elements"/>
+          <include name="EvenListner"/>
+          <include name="genrateReport"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Testcases.TC_001_Elements -->
+      <class name="Testcases.TC_005_Interactions">
+        <methods>
+          <include name="initialization"/>
+          <include name="EvenListner"/>
+          <include name="genrateReport"/>
+          <include name="quitDriver"/>
+          <include name="Interactions"/>
+        </methods>
+      </class> <!-- Testcases.TC_005_Interactions -->
+      <class name="Testcases.TC_002_Forms">
+        <methods>
+          <include name="initialization"/>
+          <include name="Forms"/>
+          <include name="EvenListner"/>
+          <include name="genrateReport"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Testcases.TC_002_Forms -->
+      <class name="Testcases.TC_006_BookStore">
+        <methods>
+          <include name="initialization"/>
+          <include name="EvenListner"/>
+          <include name="genrateReport"/>
+          <include name="quitDriver"/>
+          <include name="BookStore"/>
+        </methods>
+      </class> <!-- Testcases.TC_006_BookStore -->
+      <class name="Testcases.TC_003_AlertFrameWindows">
+        <methods>
+          <include name="initialization"/>
+          <include name="EvenListner"/>
+          <include name="genrateReport"/>
+          <include name="quitDriver"/>
+          <include name="AlertFrameWindows"/>
+        </methods>
+      </class> <!-- Testcases.TC_003_AlertFrameWindows -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
