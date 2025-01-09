@@ -26,7 +26,7 @@ public class TC_004_Widgets extends baseClass {
 		String category_actual =category.userChoosingTheCategory("Widgets");	
 		reportGenerator.verifyOutput(category_actual, "DEMOQA", "Successfully Clicked on Widgets page", "Failed to click Widgets page");
 		
-		//Selecting the Accordian
+		//Selecting the Accordian page
 		reportGenerator.writeStep("Accordian page","User should be able to see Accordian page");
 		category.InsideChoosingCategory("Accordian");
 		ClickOnAccordian accordian = new ClickOnAccordian(driver);
