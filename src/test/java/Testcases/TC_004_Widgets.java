@@ -64,7 +64,7 @@ public class TC_004_Widgets extends baseClass {
 		reportGenerator.verifyOutput(progressBar_actual, "DEMOQA", "Successfully worked on ProgressBar", "Failed to work a ProgressBar page");
 		
 		//Choosing the Select menu
-		reportGenerator.writeStep("SelectMenu page","User should be able to see SelectMenu page");
+		reportGenerator.writeStep("SelectMenu page","User should be able to see Select Menu page");
 		category.InsideChoosingCategory("Select Menu");
 		ClickOnSelectMenu selectMenu = new ClickOnSelectMenu(driver);
 		selectMenu.SelectValue("Group 1, option 1");
