@@ -2,7 +2,6 @@ package Testcases;
 
 import java.util.Arrays;
 import java.util.List;
-
 import org.openqa.selenium.support.Colors;
 import org.testng.annotations.Test;
 import commonsteps.choosingCategory;
