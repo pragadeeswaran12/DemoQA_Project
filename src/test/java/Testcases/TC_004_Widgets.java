@@ -32,7 +32,7 @@ public class TC_004_Widgets extends baseClass {
 		String accordian_actual =accordian.clickAccordian();
 		reportGenerator.verifyOutput(accordian_actual, "DEMOQA", "Successfully worked on Accordian button", "Failed to work a Accordian page");
 		
-		//Selecting the Auto complete
+		//Selecting the Auto complete page
 		reportGenerator.writeStep("AutoComplete page","User should be able to see AutoComplete page");
 		category.InsideChoosingCategory("Auto Complete");
 		ClickOnAutoComplete auto = new ClickOnAutoComplete(driver);
