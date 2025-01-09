@@ -72,6 +72,6 @@ public class TC_004_Widgets extends baseClass {
 		selectMenu.MenuColour("Blue");
 		selectMenu.selectOptions(driver, null, null);
 		String selectMenu_actual = selectMenu.Standardmultiselect("Volvo");
-//		reportGenerator.verifyOutput(selectMenu_actual, "DEMOQA", "Successfully worked on a SelectMenu", "Failed to work a SelectMenu page");
+		reportGenerator.verifyOutput(selectMenu_actual, "DEMOQA", "Successfully worked on a SelectMenu", "Failed to work a SelectMenu page");
 	}
 }
