@@ -31,7 +31,7 @@ public class TC_004_Widgets extends baseClass {
 		category.InsideChoosingCategory("Accordian");
 		ClickOnAccordian accordian = new ClickOnAccordian(driver);
 		String accordian_actual =accordian.clickAccordian();
-		reportGenerator.verifyOutput(category_actual, "DEMOQA", "Successfully worked on Accordian button", "Failed to work a Accordian page");
+		reportGenerator.verifyOutput(accordian_actual, "DEMOQA", "Successfully worked on Accordian button", "Failed to work a Accordian page");
 		
 		//Selecting the Auto complete
 		reportGenerator.writeStep("AutoComplete page","User should be able to see AutoComplete page");
@@ -40,28 +40,28 @@ public class TC_004_Widgets extends baseClass {
 //		List<String> colorsList = Arrays.asList(Colors.split(",")); 
 //		auto.typeMultipleColors(colorsList);
         String auto_actual =auto.typeSingleColor("Blue");
-        reportGenerator.verifyOutput(category_actual, "DEMOQA", "Successfully worked on AutoComplete page", "Failed to work a AutoComplete page");
+        reportGenerator.verifyOutput(auto_actual, "DEMOQA", "Successfully worked on AutoComplete page", "Failed to work a AutoComplete page");
         
         //Selecting the Date picker
         reportGenerator.writeStep("DatePicker page","User should be able to see DatePicker page");
 		category.InsideChoosingCategory("Date Picker");
 		ClickOnDatePicker date = new ClickOnDatePicker(driver);
 		String date_actual =date.ClickDataPicker("01/08/2025", "January 23, 2010 11:30 AM");
-		reportGenerator.verifyOutput(category_actual, "DEMOQA", "Successfully worked a DatePicker page", "Failed to work a DatePicker page");
+		reportGenerator.verifyOutput(date_actual, "DEMOQA", "Successfully worked a DatePicker page", "Failed to work a DatePicker page");
 		
 		//clicking the Slider
 		reportGenerator.writeStep("Slider page","User should be able to see Slider page");
 		category.InsideChoosingCategory("Slider");
 		ClickOnSlider slider = new ClickOnSlider(driver);
 		String slider_actual=slider.moveSliderUsingKeyboard(50);
-		reportGenerator.verifyOutput(category_actual, "DEMOQA", "Successfully worked a Slider page", "Failed to work a Slider page");
+		reportGenerator.verifyOutput(slider_actual, "DEMOQA", "Successfully worked a Slider page", "Failed to work a Slider page");
 		
 		//Clicking the Progress bar
 		reportGenerator.writeStep("ProgressBar page","User should be able to see ProgressBar page");
 		category.InsideChoosingCategory("Progress Bar");
 		ClickOnProgressBar progressBar = new ClickOnProgressBar(driver);
 		String progressBar_actual =progressBar.handleProgressBar(50);
-		reportGenerator.verifyOutput(category_actual, "DEMOQA", "Successfully worked on ProgressBar", "Failed to work a ProgressBar page");
+		reportGenerator.verifyOutput(progressBar_actual, "DEMOQA", "Successfully worked on ProgressBar", "Failed to work a ProgressBar page");
 		
 		//Choosing the Select menu
 		reportGenerator.writeStep("SelectMenu page","User should be able to see SelectMenu page");
@@ -72,6 +72,6 @@ public class TC_004_Widgets extends baseClass {
 		selectMenu.MenuColour("Blue");
 		selectMenu.selectOptions(driver, null, null);
 		String selectMenu_actual = selectMenu.Standardmultiselect("Volvo");
-		reportGenerator.verifyOutput(category_actual, "DEMOQA", "Successfully worked on a SelectMenu", "Failed to work a SelectMenu page");
+		reportGenerator.verifyOutput(selectMenu_actual, "DEMOQA", "Successfully worked on a SelectMenu", "Failed to work a SelectMenu page");
 	}
 }
