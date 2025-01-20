@@ -75,7 +75,7 @@ public class TC_001_Elements extends baseClass {
 		String upload_actual = upload.uploadFile("C:\\Users\\pragadeeswaran\\Desktop\\DemoQA.txt");
 		reportGenerator.verifyOutput(upload_actual, "DEMOQA", "Successfully uploaded file", "Failed to upload a file");
 		
-		//Clicking the Dynamic
+		//Clicking the Dynamic properties
 		reportGenerator.writeStep("Dynamic page","User should be able to see Dynamic page");
 		category.InsideChoosingCategory("Dynamic Properties");
 		ClickOnDynamicProperties dynamic = new ClickOnDynamicProperties(driver);

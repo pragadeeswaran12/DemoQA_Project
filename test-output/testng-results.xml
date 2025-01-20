@@ -1,161 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-08T18:13:34 IST" name="Suite" finished-at="2025-01-08T18:17:03 IST" duration-ms="209682">
+  <suite started-at="2025-01-20T10:08:23 IST" name="Default suite" finished-at="2025-01-20T10:09:20 IST" duration-ms="56862">
     <groups>
     </groups>
-    <test started-at="2025-01-08T18:13:34 IST" name="Test" finished-at="2025-01-08T18:17:03 IST" duration-ms="209682">
-      <class name="Testcases.TC_005_Interactions">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:Testcases.TC_005_Interactions@4135c3b]" started-at="2025-01-08T18:15:59 IST" name="initialization" finished-at="2025-01-08T18:16:19 IST" duration-ms="19141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="EvenListner(java.lang.reflect.Method)[pri:0, instance:Testcases.TC_005_Interactions@4135c3b]" started-at="2025-01-08T18:16:19 IST" name="EvenListner" finished-at="2025-01-08T18:16:19 IST" duration-ms="9" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Testcases.TC_005_Interactions.Interactions() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EvenListner -->
-        <test-method signature="Interactions()[pri:0, instance:Testcases.TC_005_Interactions@4135c3b]" started-at="2025-01-08T18:16:19 IST" name="Interactions" finished-at="2025-01-08T18:16:34 IST" duration-ms="15741" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Interactions -->
-        <test-method is-config="true" signature="genrateReport(org.testng.ITestResult)[pri:0, instance:Testcases.TC_005_Interactions@4135c3b]" started-at="2025-01-08T18:16:34 IST" name="genrateReport" finished-at="2025-01-08T18:16:34 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Interactions status=SUCCESS method=TC_005_Interactions.Interactions()[pri:0, instance:Testcases.TC_005_Interactions@4135c3b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- genrateReport -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Testcases.TC_005_Interactions@4135c3b]" started-at="2025-01-08T18:16:34 IST" name="quitDriver" finished-at="2025-01-08T18:16:34 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Testcases.TC_005_Interactions -->
-      <class name="Testcases.TC_003_AlertFrameWindows">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:Testcases.TC_003_AlertFrameWindows@2a65fe7c]" started-at="2025-01-08T18:15:32 IST" name="initialization" finished-at="2025-01-08T18:15:44 IST" duration-ms="11935" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="EvenListner(java.lang.reflect.Method)[pri:0, instance:Testcases.TC_003_AlertFrameWindows@2a65fe7c]" started-at="2025-01-08T18:15:44 IST" name="EvenListner" finished-at="2025-01-08T18:15:44 IST" duration-ms="18" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Testcases.TC_003_AlertFrameWindows.AlertFrameWindows() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EvenListner -->
-        <test-method signature="AlertFrameWindows()[pri:0, instance:Testcases.TC_003_AlertFrameWindows@2a65fe7c]" started-at="2025-01-08T18:15:44 IST" name="AlertFrameWindows" finished-at="2025-01-08T18:15:59 IST" duration-ms="15406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AlertFrameWindows -->
-        <test-method is-config="true" signature="genrateReport(org.testng.ITestResult)[pri:0, instance:Testcases.TC_003_AlertFrameWindows@2a65fe7c]" started-at="2025-01-08T18:15:59 IST" name="genrateReport" finished-at="2025-01-08T18:15:59 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=AlertFrameWindows status=SUCCESS method=TC_003_AlertFrameWindows.AlertFrameWindows()[pri:0, instance:Testcases.TC_003_AlertFrameWindows@2a65fe7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- genrateReport -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Testcases.TC_003_AlertFrameWindows@2a65fe7c]" started-at="2025-01-08T18:15:59 IST" name="quitDriver" finished-at="2025-01-08T18:15:59 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Testcases.TC_003_AlertFrameWindows -->
-      <class name="Testcases.TC_006_BookStore">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:Testcases.TC_006_BookStore@31304f14]" started-at="2025-01-08T18:16:34 IST" name="initialization" finished-at="2025-01-08T18:16:58 IST" duration-ms="23908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="EvenListner(java.lang.reflect.Method)[pri:0, instance:Testcases.TC_006_BookStore@31304f14]" started-at="2025-01-08T18:16:58 IST" name="EvenListner" finished-at="2025-01-08T18:16:58 IST" duration-ms="8" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Testcases.TC_006_BookStore.BookStore() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EvenListner -->
-        <test-method signature="BookStore()[pri:0, instance:Testcases.TC_006_BookStore@31304f14]" started-at="2025-01-08T18:16:58 IST" name="BookStore" finished-at="2025-01-08T18:17:03 IST" duration-ms="5006" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BookStore -->
-        <test-method is-config="true" signature="genrateReport(org.testng.ITestResult)[pri:0, instance:Testcases.TC_006_BookStore@31304f14]" started-at="2025-01-08T18:17:03 IST" name="genrateReport" finished-at="2025-01-08T18:17:03 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=BookStore status=SUCCESS method=TC_006_BookStore.BookStore()[pri:0, instance:Testcases.TC_006_BookStore@31304f14] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- genrateReport -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Testcases.TC_006_BookStore@31304f14]" started-at="2025-01-08T18:17:03 IST" name="quitDriver" finished-at="2025-01-08T18:17:03 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Testcases.TC_006_BookStore -->
-      <class name="Testcases.TC_002_Forms">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:Testcases.TC_002_Forms@4562e04d]" started-at="2025-01-08T18:14:57 IST" name="initialization" finished-at="2025-01-08T18:15:18 IST" duration-ms="21149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="EvenListner(java.lang.reflect.Method)[pri:0, instance:Testcases.TC_002_Forms@4562e04d]" started-at="2025-01-08T18:15:18 IST" name="EvenListner" finished-at="2025-01-08T18:15:18 IST" duration-ms="8" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Testcases.TC_002_Forms.Forms() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EvenListner -->
-        <test-method signature="Forms()[pri:0, instance:Testcases.TC_002_Forms@4562e04d]" started-at="2025-01-08T18:15:18 IST" name="Forms" finished-at="2025-01-08T18:15:32 IST" duration-ms="13707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Forms -->
-        <test-method is-config="true" signature="genrateReport(org.testng.ITestResult)[pri:0, instance:Testcases.TC_002_Forms@4562e04d]" started-at="2025-01-08T18:15:32 IST" name="genrateReport" finished-at="2025-01-08T18:15:32 IST" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Forms status=SUCCESS method=TC_002_Forms.Forms()[pri:0, instance:Testcases.TC_002_Forms@4562e04d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- genrateReport -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Testcases.TC_002_Forms@4562e04d]" started-at="2025-01-08T18:15:32 IST" name="quitDriver" finished-at="2025-01-08T18:15:32 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Testcases.TC_002_Forms -->
+    <test started-at="2025-01-20T10:08:23 IST" name="Default test" finished-at="2025-01-20T10:09:20 IST" duration-ms="56862">
       <class name="Testcases.TC_001_Elements">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:Testcases.TC_001_Elements@55b699ef]" started-at="2025-01-08T18:13:34 IST" name="initialization" finished-at="2025-01-08T18:14:24 IST" duration-ms="50005" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:Testcases.TC_001_Elements@f6efaab]" started-at="2025-01-20T10:08:23 IST" name="initialization" finished-at="2025-01-20T10:08:41 IST" duration-ms="18130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="EvenListner(java.lang.reflect.Method)[pri:0, instance:Testcases.TC_001_Elements@55b699ef]" started-at="2025-01-08T18:14:24 IST" name="EvenListner" finished-at="2025-01-08T18:14:24 IST" duration-ms="496" status="PASS">
+        <test-method is-config="true" signature="EvenListner(java.lang.reflect.Method)[pri:0, instance:Testcases.TC_001_Elements@f6efaab]" started-at="2025-01-20T10:08:41 IST" name="EvenListner" finished-at="2025-01-20T10:08:43 IST" duration-ms="2062" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,26 +22,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EvenListner -->
-        <test-method signature="Elements()[pri:0, instance:Testcases.TC_001_Elements@55b699ef]" started-at="2025-01-08T18:14:24 IST" name="Elements" finished-at="2025-01-08T18:14:57 IST" duration-ms="33041" status="PASS">
+        <test-method signature="Elements()[pri:0, instance:Testcases.TC_001_Elements@f6efaab]" started-at="2025-01-20T10:08:43 IST" name="Elements" finished-at="2025-01-20T10:09:20 IST" duration-ms="36614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Elements -->
-        <test-method is-config="true" signature="genrateReport(org.testng.ITestResult)[pri:0, instance:Testcases.TC_001_Elements@55b699ef]" started-at="2025-01-08T18:14:57 IST" name="genrateReport" finished-at="2025-01-08T18:14:57 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="genrateReport(org.testng.ITestResult)[pri:0, instance:Testcases.TC_001_Elements@f6efaab]" started-at="2025-01-20T10:09:20 IST" name="genrateReport" finished-at="2025-01-20T10:09:20 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Elements status=SUCCESS method=TC_001_Elements.Elements()[pri:0, instance:Testcases.TC_001_Elements@55b699ef] output={null}]]]>
+                <![CDATA[[TestResult name=Elements status=SUCCESS method=TC_001_Elements.Elements()[pri:0, instance:Testcases.TC_001_Elements@f6efaab] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- genrateReport -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Testcases.TC_001_Elements@55b699ef]" started-at="2025-01-08T18:14:57 IST" name="quitDriver" finished-at="2025-01-08T18:14:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Testcases.TC_001_Elements@f6efaab]" started-at="2025-01-20T10:09:20 IST" name="quitDriver" finished-at="2025-01-20T10:09:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- Testcases.TC_001_Elements -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
