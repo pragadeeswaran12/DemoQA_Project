@@ -72,7 +72,7 @@ public class TC_001_Elements extends baseClass {
 		reportGenerator.writeStep("Uploaded page","User should be able to see uploaded page");
 		category.InsideChoosingCategory("Upload and Download");
 		ClickOnUploadAndDownload upload = new ClickOnUploadAndDownload(driver);
-		String upload_actual = upload.uploadFile("C:\\Users\\pragadeeswaran\\Desktop\\DemoQA.txt");
+		String upload_actual = upload.uploadFile("D:\\Shubham\\New folder\\SHUBHAM\\shubham\\UploadFile\\TestData");
 		reportGenerator.verifyOutput(upload_actual, "DEMOQA", "Successfully uploaded file", "Failed to upload a file");
 		
 		//Clicking the Dynamic properties
