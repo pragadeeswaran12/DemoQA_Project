@@ -22,5 +22,4 @@ public class TC_002_Forms extends baseClass {
 		String practice_actual = practice.practiceFormDetails("Pragdees", "S", "mani123@gmail.com", "Male", "9856743516", "12-May-2023","Nothing", "Music","C:\\Users\\pragadeeswaran\\Desktop\\DemoQA.txt", "Bangalore","NCR","Delhi");
 		reportGenerator.verifyOutput(practice_actual, "DEMOQA", "Successfully entered all the details", "Failed to enter a details");
 	}
-
 }
